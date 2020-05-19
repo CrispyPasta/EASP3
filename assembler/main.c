@@ -9,7 +9,10 @@ int main() {
     size = getFileSize(programFile);
     unsigned char programContents[size + 1];
     readFile(programContents, programFile);
-    printf("Size is: %d\n", size);
+    for (int a = 0; a < size; a++){
+        printf("%c", programContents[a]);
+    }
+    printf("\nSize is: %d\n", size);
     return 0;
 }
 
