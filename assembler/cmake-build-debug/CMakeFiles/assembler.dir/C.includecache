@@ -9,4 +9,8 @@
 /cygdrive/c/Users/fouri/Documents/Uni/Year 4/S1/EAS/Prac 3/EASP3/assembler/main.c
 stdio.h
 -
+string.h
+-
+stdlib.h
+-
 
